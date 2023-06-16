@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/portfolio-frontend/static/css/main.f290f570.css",
+    "main.js": "/portfolio-frontend/static/js/main.cfde9ccc.js",
+    "static/media/profilepic.jpg": "/portfolio-frontend/static/media/profilepic.025b69c3ccde15984085.jpg",
+    "static/media/diego-figueroa-resume.pdf": "/portfolio-frontend/static/media/diego-figueroa-resume.1376eaae9f572149bfc3.pdf",
+    "static/media/django.svg": "/portfolio-frontend/static/media/django.326610a9cd55bf5bd7b2e2ee31062f9e.svg",
+    "static/media/aws.svg": "/portfolio-frontend/static/media/aws.cc38dbe9487d55943d42132de41bbf53.svg",
+    "index.html": "/portfolio-frontend/index.html",
+    "main.f290f570.css.map": "/portfolio-frontend/static/css/main.f290f570.css.map",
+    "main.cfde9ccc.js.map": "/portfolio-frontend/static/js/main.cfde9ccc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f290f570.css",
+    "static/js/main.cfde9ccc.js"
+  ]
+}
