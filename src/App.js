@@ -4,7 +4,7 @@ import Home from './pages/home/home.jsx'
 function App() {
   return (
     <Routes>
-      <Route path='/' element={<Home />} />
+      <Route path='/portfolio-frontend/' element={<Home />} />
     </Routes>
   );
 }
