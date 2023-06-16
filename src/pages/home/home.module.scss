@@ -1,0 +1,207 @@
+$base-color: #03045e;
+$color-1: #05668d;
+$color-2: #028090;
+$color-3: #00a896;
+$color-4: #02c39a;
+$font-color: #f0f3bd;
+
+header {
+    nav {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        align-items: center;
+        height: 10vh;
+        box-shadow: 0rem 0.01rem 0.5rem;
+        gap: 1rem;
+
+        span.home {
+            flex: 4;
+        }
+
+        span {
+            flex: 1;
+            font-size: x-large;
+            color: $font-color;
+        }
+    }
+}
+
+.introContainer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    height: 35rem;
+
+    .greetingContainer {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        color: $font-color;
+        font-size: xx-large;
+        gap: 1.5rem;
+
+        span.name {
+            font-size: 5rem;
+        }
+
+        .buttonContainer {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: flex-start;
+            align-items: center;
+            gap: 1rem;
+        }
+    }
+
+    .animationContainer {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.aboutContainer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    height: 35rem;
+
+    .textContainer {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        color: $font-color;
+        font-size: x-large;
+        width: 80vh;
+    }
+
+    .imageContainer {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+
+        .profileContainer {
+            height: 30rem;
+            width: 30rem;
+            display: flex;
+            justify-content: flex-end;
+
+            img {
+                max-width: 100%;
+                height: 100%;
+                border-radius: 1.5rem;
+                box-shadow: -1.5rem 1.5rem 0rem 0.5rem $font-color;
+            }
+        }
+    }
+}
+
+.technologyContainer {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    color: $font-color;
+    font-size: x-large;
+    margin-top: 5rem;
+    gap: 2rem;
+
+    .technologyTitle {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        gap: 10rem;
+    }
+
+    .technologyList {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 10rem;
+
+        .technologyItem {
+            height: 10rem;
+            width: 10rem;
+            margin-bottom: 1rem;
+
+            img {
+                max-width: 100%;
+                height: 100%;
+            }
+        }
+    }
+}
+
+.projectContainer {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    color: $font-color;
+    font-size: x-large;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    gap: 2rem;
+    
+    .projectTitle {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        gap: 10rem;
+    }
+
+    .project {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        gap: 10rem;
+
+        .module {
+            flex: 1;
+        }
+
+        .mainModule {
+            flex: 4;
+            height: 20rem;
+            background-color: $color-2;
+            border-radius: 10px;
+        }
+    }
+}
+
+button {
+    background-color: $base-color;
+    color: $font-color;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border-color: $base-color;
+    font-size: medium;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+a.nostyle:link {
+    text-decoration: inherit;
+    color: inherit;
+    cursor: pointer;
+}
+
+a.nostyle:visited {
+    text-decoration: inherit;
+    color: inherit;
+    cursor: pointer;
+}
+
+footer {
+    background-color: $base-color;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    color: $font-color;
+    gap: 1.5rem;
+    height: 5vh;
+}
