@@ -16,13 +16,13 @@ export default function About() {
         <h1>About Me</h1>
         <p>Hi, my name's Diego Figueroa, and I am a Full Stack Software
           Developer living in Gilroy, California. I've worked many years
-          professionally with Web Development and continue loving working
+          professionally with Web Development and continue to love working
           with fantastic development teams to tackle exciting new projects!
         </p>
         <p>
           My primary languages are Python and Javascript. I mainly use Python
-          to build backend applications and full REST API. Then I use modern
-          Javascript frameworks such as React, to build beatiful responsive UIs.
+          to build backend applications and REST APIs. Then I use modern
+          Javascript frameworks such as React, to build beautiful responsive UIs.
         </p>
       </div>
 

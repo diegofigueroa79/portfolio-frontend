@@ -134,6 +134,10 @@ header {
             span.name {
                 font-size: 3rem;
             }
+
+            span {
+                text-align: center;
+            }
     
             .buttonContainer {
                 display: flex;
@@ -312,6 +316,8 @@ header {
             justify-content: center;
             align-items: center;
             gap: 2rem;
+            margin-right: 1rem;
+            margin-left: 1rem;
     
             .technologyItem {
                 height: 10rem;
