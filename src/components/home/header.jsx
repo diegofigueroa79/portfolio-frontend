@@ -9,7 +9,7 @@ export default function Header() {
           <span><a href='#about' className={styles.nostyle}>About</a></span>
           <span className={styles.technology}><a href='#technologies' className={styles.nostyle}>Technologies</a></span>
           <span className={styles.tech}><a href='#technologies' className={styles.nostyle}>Tech</a></span>
-          <span><a href='#projects' className={styles.nostyle}>Projects</a></span>
+          <span className={styles.last}><a href='#projects' className={styles.nostyle}>Projects</a></span>
           <span className={styles.spacer}></span>
         </nav>
       </header>
