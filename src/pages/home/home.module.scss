@@ -5,6 +5,13 @@ $color-3: #00a896;
 $color-4: #02c39a;
 $font-color: #f0f3bd;
 
+$layout-breakpoint-small: 1200px;
+
+.container {
+    display: flex;
+    flex-flow: column wrap;
+}
+
 header {
     nav {
         display: flex;
@@ -23,6 +30,32 @@ header {
             flex: 1;
             font-size: x-large;
             color: $font-color;
+        }
+    }
+}
+
+@media (max-width: $layout-breakpoint-small) {
+    header {
+
+        nav {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: center;
+            align-items: center;
+            height: 10vh;
+            box-shadow: 0rem 0.01rem 0.5rem;
+            gap: 4rem;
+            margin-bottom: 5rem;
+    
+            span.home {
+                flex: 1;
+            }
+    
+            span {
+                flex: 1;
+                font-size: x-large;
+                color: $font-color;
+            }
         }
     }
 }
@@ -59,6 +92,41 @@ header {
         flex-flow: column wrap;
         justify-content: center;
         align-items: center;
+    }
+}
+
+@media (max-width: $layout-breakpoint-small) {
+    .introContainer {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+        height: 35rem;
+    
+        .greetingContainer {
+            display: flex;
+            flex-flow: column wrap;
+            justify-content: center;
+            align-items: center;
+            color: $font-color;
+            font-size: xx-large;
+            gap: 1.5rem;
+    
+            span.name {
+                font-size: 5rem;
+            }
+    
+            .buttonContainer {
+                display: flex;
+                flex-flow: row wrap;
+                justify-content: flex-start;
+                align-items: center;
+                gap: 3rem;
+            }
+        }
+    
+        .animationContainer {
+            display: none;
+        }
     }
 }
 
@@ -99,6 +167,75 @@ header {
     }
 }
 
+@media (max-width: $layout-breakpoint-small) {
+    .aboutContainer {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        gap: 2rem;
+        margin-left: 2rem;
+        margin-right: 1rem;
+
+        .textContainer {
+            display: flex;
+            flex-flow: column wrap;
+            justify-content: center;
+            align-items: center;
+            color: $font-color;
+            font-size: x-large;
+        }
+
+        .imageContainer {
+            display: none;
+            flex-flow: column wrap;
+            justify-content: center;
+            align-items: center;
+
+            .profileContainer {
+                height: 30rem;
+                width: 30rem;
+                display: flex;
+                justify-content: center;
+
+                img {
+                    max-width: 100%;
+                    height: 100%;
+                    border-radius: 1.5rem;
+                    box-shadow: -1.5rem 1.5rem 0rem 0.5rem $font-color;
+                }
+            }
+        }
+    }
+}
+
+.profilepicContainer {
+    display: none;
+}
+
+.profileOuterContainer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+@media (max-width: $layout-breakpoint-small) {
+    .profilepicContainer {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+        height: 30rem;
+        width: 30rem;
+
+        img {
+            max-width: 100%;
+            height: 100%;
+            border-radius: 1.5rem;
+            box-shadow: -1.5rem 1.5rem 0rem 0.5rem $font-color;
+        }
+    }
+}
+
 .technologyContainer {
     display: flex;
     flex-flow: column wrap;
@@ -113,6 +250,19 @@ header {
         flex-flow: row wrap;
         justify-content: space-around;
         gap: 10rem;
+    }
+
+    @media (max-width: $layout-breakpoint-small) {
+        .technologyTitle {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: center;
+            gap: 10rem;
+        }
+
+        span {
+            display: none;
+        }
     }
 
     .technologyList {
@@ -152,6 +302,19 @@ header {
         gap: 10rem;
     }
 
+    @media (max-width: $layout-breakpoint-small) {
+        .projectTitle {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: center;
+            gap: 10rem;
+        }
+
+        span {
+            display: none;
+        }
+    }
+
     .project {
         display: flex;
         flex-flow: row wrap;
@@ -160,6 +323,20 @@ header {
 
         .module {
             flex: 1;
+        }
+
+        @media (max-width: $layout-breakpoint-small) {
+            .module {
+                display: none;
+            }
+
+            .mainModule {
+                margin-right: 2rem;
+                margin-left: 2rem;
+                height: 20rem;
+                background-color: rgba(3, 5, 94, 0.3);
+                border-radius: 10px;
+            }
         }
 
         .mainModule {
