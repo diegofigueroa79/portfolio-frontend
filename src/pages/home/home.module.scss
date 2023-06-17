@@ -31,6 +31,10 @@ header {
             font-size: x-large;
             color: $font-color;
         }
+
+        span.tech {
+            display: none;
+        }
     }
 }
 
@@ -44,17 +48,30 @@ header {
             align-items: center;
             height: 10vh;
             box-shadow: 0rem 0.01rem 0.5rem;
-            gap: 4rem;
+            gap: 0rem;
             margin-bottom: 5rem;
     
             span.home {
                 flex: 1;
+                margin-left: 1rem;
             }
     
             span {
                 flex: 1;
                 font-size: x-large;
                 color: $font-color;
+            }
+
+            span.spacer {
+                display: none;
+            }
+
+            span.tech {
+                display: block;
+            }
+
+            span.technology {
+                display: none;
             }
         }
     }
@@ -112,7 +129,7 @@ header {
             gap: 1.5rem;
     
             span.name {
-                font-size: 5rem;
+                font-size: 3rem;
             }
     
             .buttonContainer {
@@ -183,6 +200,7 @@ header {
             align-items: center;
             color: $font-color;
             font-size: x-large;
+            width: auto;
         }
 
         .imageContainer {
@@ -225,13 +243,13 @@ header {
         justify-content: center;
         align-items: center;
         height: 30rem;
-        width: 30rem;
+        width: auto;
 
         img {
             max-width: 100%;
             height: 100%;
             border-radius: 1.5rem;
-            box-shadow: -1.5rem 1.5rem 0rem 0.5rem $font-color;
+            box-shadow: -0.4rem 0.4rem 0rem 0.4rem $font-color;
         }
     }
 }
