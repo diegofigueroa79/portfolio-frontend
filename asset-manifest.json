@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/portfolio-frontend/static/css/main.5c910b8d.css",
-    "main.js": "/portfolio-frontend/static/js/main.7fe88f8c.js",
+    "main.css": "/portfolio-frontend/static/css/main.f43a951c.css",
+    "main.js": "/portfolio-frontend/static/js/main.8b3ac2ee.js",
     "static/media/profilepic.jpg": "/portfolio-frontend/static/media/profilepic.025b69c3ccde15984085.jpg",
     "static/media/diego-figueroa-resume.pdf": "/portfolio-frontend/static/media/diego-figueroa-resume.1376eaae9f572149bfc3.pdf",
     "static/media/django.svg": "/portfolio-frontend/static/media/django.326610a9cd55bf5bd7b2e2ee31062f9e.svg",
     "static/media/aws.svg": "/portfolio-frontend/static/media/aws.cc38dbe9487d55943d42132de41bbf53.svg",
     "index.html": "/portfolio-frontend/index.html",
-    "main.5c910b8d.css.map": "/portfolio-frontend/static/css/main.5c910b8d.css.map",
-    "main.7fe88f8c.js.map": "/portfolio-frontend/static/js/main.7fe88f8c.js.map"
+    "main.f43a951c.css.map": "/portfolio-frontend/static/css/main.f43a951c.css.map",
+    "main.8b3ac2ee.js.map": "/portfolio-frontend/static/js/main.8b3ac2ee.js.map"
   },
   "entrypoints": [
-    "static/css/main.5c910b8d.css",
-    "static/js/main.7fe88f8c.js"
+    "static/css/main.f43a951c.css",
+    "static/js/main.8b3ac2ee.js"
   ]
 }
