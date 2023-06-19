@@ -356,10 +356,10 @@ header {
             flex-flow: row wrap;
             justify-content: center;
             gap: 10rem;
-        }
 
-        span {
-            display: none;
+            span {
+                display: none;
+            }
         }
     }
 
@@ -373,6 +373,34 @@ header {
             flex: 1;
         }
 
+        .mainModule {
+            flex: 4;
+            height: 20rem;
+            background-color: rgba(3, 5, 94, 0.3);
+            border-radius: 10px;
+
+            display: flex;
+            flex-flow: row wrap;
+
+            .projectPhoto {
+                flex: 1;
+                max-width: 50%;
+
+                img {
+                    max-width: 100%;
+                    max-height: 100%;
+                }
+            }
+
+            .projectDescription {
+                flex: 1;
+
+                display: flex;
+                flex-flow: column nowrap;
+                padding: 1rem;
+            }
+        }
+
         @media (max-width: $layout-breakpoint-small) {
             .module {
                 display: none;
@@ -381,17 +409,33 @@ header {
             .mainModule {
                 margin-right: 2rem;
                 margin-left: 2rem;
-                height: 20rem;
+                height: 100%;
                 background-color: rgba(3, 5, 94, 0.3);
                 border-radius: 10px;
-            }
-        }
 
-        .mainModule {
-            flex: 4;
-            height: 20rem;
-            background-color: rgba(3, 5, 94, 0.3);
-            border-radius: 10px;
+                display: flex;
+                flex-flow: column nowrap;
+
+                .projectPhoto {
+                    max-width: 100%;
+                    max-height: auto;
+                    flex: 1;
+
+                    img {
+                        max-width: auto;
+                        max-height: auto;
+                    }
+                }
+
+                .projectDescription {
+                    flex: 1;
+                    font-size: 1.3rem;
+
+                    display: flex;
+                    flex-flow: column nowrap;
+                    padding: 1rem;
+                }
+            }
         }
     }
 }
