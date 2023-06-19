@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/portfolio-frontend/static/css/main.74387b20.css",
-    "main.js": "/portfolio-frontend/static/js/main.e91eff47.js",
+    "main.css": "/portfolio-frontend/static/css/main.c95782e8.css",
+    "main.js": "/portfolio-frontend/static/js/main.42e822be.js",
     "static/media/profilepic.jpg": "/portfolio-frontend/static/media/profilepic.025b69c3ccde15984085.jpg",
+    "static/media/go-kart-crazy.png": "/portfolio-frontend/static/media/go-kart-crazy.4e0ebc932c5a14d26d43.png",
     "static/media/diego-figueroa-resume.pdf": "/portfolio-frontend/static/media/diego-figueroa-resume.1376eaae9f572149bfc3.pdf",
     "static/media/django.svg": "/portfolio-frontend/static/media/django.326610a9cd55bf5bd7b2e2ee31062f9e.svg",
     "static/media/aws.svg": "/portfolio-frontend/static/media/aws.cc38dbe9487d55943d42132de41bbf53.svg",
     "index.html": "/portfolio-frontend/index.html",
-    "main.74387b20.css.map": "/portfolio-frontend/static/css/main.74387b20.css.map",
-    "main.e91eff47.js.map": "/portfolio-frontend/static/js/main.e91eff47.js.map"
+    "main.c95782e8.css.map": "/portfolio-frontend/static/css/main.c95782e8.css.map",
+    "main.42e822be.js.map": "/portfolio-frontend/static/js/main.42e822be.js.map"
   },
   "entrypoints": [
-    "static/css/main.74387b20.css",
-    "static/js/main.e91eff47.js"
+    "static/css/main.c95782e8.css",
+    "static/js/main.42e822be.js"
   ]
 }
